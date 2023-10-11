@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+}
+
+.Coin-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+}
+.Game_heading {
+  font-size: 25px;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #a35200;
+}
+.Head_or_Tail_description {
+  font-size: 15px;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #475569;
+}
+
+.img {
+  height: 250px;
+  width: 250px;
+}
+
+.TossCount-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Count-description {
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #475569;
+  padding: 10px;
+}
+
+.Toss_button {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #a35200;
+  background-color: #f9d423;
+  border-radius: 10px;
+  border-width: 0px;
+}
